@@ -1,0 +1,20 @@
+Source: matchbox-window-manager
+Section: gui
+Priority: optional
+Maintainer: Sergey Lapin <slapin@slind.org>
+Build-Depends: cdbs (>= 0.4.21), debhelper (>= 4.1.0), pkg-config, libstartup-notification0-dev, libmatchbox-dev (>= 1.8-1)
+XCS-Cross-Build-Depends: libstartup-notification0-dev, libmatchbox-dev (>= 1.8-1), libexpat1-dev, libgconf2-dev
+XCS-Cross-Host-Build-Depends: cdbs (>= 0.4.21), cdbs-slind, debhelper (>= 4.1.0), pkg-config (>= 0.18), gconf2
+Standards-Version: 3.7.2
+
+Package: matchbox-window-manager
+Architecture: any
+Depends: ${shlibs:Depends}
+Replaces: matchbox (<< 1:0.8.2)
+Section: gui
+Description: window manager for resource-limited systems
+ Matchbox is a base environment for the X Window System running on non-desktop
+ embedded platforms such as handhelds, set-top boxes, kiosks and anything else
+ for which screen space, input mechanisms or system resources are limited.
+ .
+ This package contains the Matchbox window manager.
