@@ -1,10 +1,10 @@
 Source: matchbox-window-manager
 Section: gui
 Priority: optional
-Maintainer: Sergey Lapin <slapin@slind.org>
+Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
 Build-Depends: cdbs (>= 0.4.21), debhelper (>= 4.1.0), pkg-config, libstartup-notification0-dev, libmatchbox-dev (>= 1.8-1)
-XCS-Cross-Build-Depends: libstartup-notification0-dev, libmatchbox-dev (>= 1.8-1), libexpat1-dev, libgconf2-dev
-XCS-Cross-Host-Build-Depends: cdbs (>= 0.4.21), cdbs-slind, debhelper (>= 4.1.0), pkg-config (>= 0.18), gconf2
+XCS-Cross-Build-Depends: libstartup-notification0-dev, libmatchbox-dev (>= 1.8-1), libexpat1-dev
+XCS-Cross-Host-Build-Depends: cdbs (>= 0.4.21), cdbs-slind, debhelper (>= 4.1.0), pkg-config (>= 0.18)
 Standards-Version: 3.7.2
 
 Package: matchbox-window-manager
