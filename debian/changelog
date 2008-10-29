@@ -1,3 +1,10 @@
+matchbox-window-manager (1.2-1.slind5.oi1) asimov; urgency=low
+
+  * Use CDBS debhelper-slind.mk rules
+  * OI port
+
+ -- Yauhen Kharuzhy <jekhor@gmail.com>  Wed, 29 Oct 2008 15:02:23 +0000
+
 matchbox-window-manager (1.2-1.slind5) unstable; urgency=low
 
   * Fixed host dependency on gconf2 (needed for gconftool-2)
